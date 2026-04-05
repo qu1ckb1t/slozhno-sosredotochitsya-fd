@@ -2,4 +2,134 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-color: var(--back-color);
+  background-image: var(--back-image);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.decorated-zone {
+  position: relative;
+}
+
+.decorated-zone::before {
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+  top: 0;
+  right: 0;
+}
+
+.decorated-zone::after {
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+  bottom: 0;
+  left: 0;
+}
+
+.header {
+  min-block-size: 1vh;
+  min-inline-size: 100%;
+  min-height: 768px;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  grid-template-columns: 1;
+  grid-auto-flow: row;
+  position: relative;
+}
+
+.header__text-decore {
+  font-family: var(--text-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--accent-color);
+  position: absolute;
+  top: 0;
+  right: 28px;
+}
+
+.header__text-decore::after {
+  content: ' ';
+  display: inline-block;  
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  background-color: var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--accent-color);
+  margin-left: 10px;
+  vertical-align: middle;
+  position: absolute;
+  top: 9px;
+}
+
+.header__theme-menu {
+  display: flex;
+  flex-direction: column;
+  grid-row: 1;
+  align-self: center;
+  justify-self: end;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  font-family: var(--text-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5em;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--accent-color);
+  padding: 1.5px 13px;
+  text-transform: lowercase;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.header__theme-menu-button:hover {
+  display: flex;
+  align-self: center;  
+  border: 1px solid var(--accent-color);
+}
+
+.header__title {
+  font-family: var(--text-font-family);
+  font-weight: 700;
+  font-size: var(--header-title-font-size);
+  line-height: 83%;
+  letter-spacing: 0%;
+  color: var(--header-title-text-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  grid-row: 2;
+}
+
+.header__description-text {
+  display: flex;
+  align-self: center;
+  block-size: min-content;
+  font-family: var(--text-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0%;
+  grid-row: 3;
+}
+
+.title-decor {
+  color: var(--header-text-color);
+  background: var(--header-text-back-color);
 }
