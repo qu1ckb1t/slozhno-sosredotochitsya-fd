@@ -4,6 +4,7 @@
 */
 
 :root {
+  --page-padding: 10px;
   --back-image: url(../images/cover-image.png);
   --back-color: #000028;
   --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -11,5 +12,15 @@
   --accent-color: #FF0070;
   --header-text-color: #000028;
   --header-text-back-color: #FF0070;
+  --menu-hover-color: #FF0070;
+  --menu-active-color: rgba(255, 0, 0, 0.4);  
   --text-font-family: 'IBM Plex Mono', serif;
+  --content-gap: 50px;
+  --content-padding: 40px 0;
+  --content-section-gap: 20px;
+  --content-text-color: #F1B2CE;
+  --content-title-color: #FF0070;
+  --content-card-gap: 10px;
+  --content-link-color: #F1B2CE;
+  --content-link-shadow-color: #FF0070;
 }
