@@ -9,4 +9,30 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --back-image: url(../images/cover-image-light.png);
+  --back-color: #FFF1F7;
+  --decore-corner-color: #353430;
+  --decore-corner-size: 25px;
+  --decore-point-size: 9px;
+  --decore-point-display: none;
+  --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* Для мобильных */
+  --header-title-text-color: #FFC2E6;
+  --accent-color: #FF8DCB;
+  --header-text-color: #353430;
+  --header-text-back-color: #FF8DCB;
+  --header-padding: 10px;
+  --menu-button-text-color: #353430;
+  --menu-hover-color: rgba(62, 61, 55, 0.4);
+  --menu-active-color: #353430;
+  --text-font-family: 'IBM Plex Mono', serif;
+  --content-gap: 50px;
+  --content-padding: 40px 10px;
+  --content-section-gap: 20px;
+  --content-text-color: #353430;
+  --content-title-color: #353430;
+  --content-card-gap: 10px;
+  --content-link-color: #353430;
+  --content-link-shadow-color: #FF8DCB;
+  --footer-padding: 10px;
+  --header-text-decore-display: none;
 }
