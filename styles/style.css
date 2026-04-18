@@ -63,7 +63,7 @@
 
 .header__text-decore::after {
   content: ' ';
-  display: var(--decore-point-display);  
+  display: var(--decore-point-display);
   border-radius: 50%;
   width: var(--decore-point-size);
   height: var(--decore-point-size);
@@ -151,7 +151,7 @@
 }
 
 .content__section {
-  display: grid;  
+  display: grid;
   grid-auto-rows: auto;
   gap: var(--content-section-gap);
   font-family: var(--text-font-family);
@@ -218,7 +218,7 @@
 }
 
 .content__galery {
-  display: grid;  
+  display: grid;
   grid-auto-rows: auto;
   gap: 10px;
 }
