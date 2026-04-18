@@ -9,4 +9,21 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --back-image: url(../images/cover-image.png);
+  --back-color: #000028;
+  --accent-color: #FF0070;
+  --decore-corner-color: var(--accent-color);
+  --decore-point-display: inline-block;
+  --header-title-text-color: #DB00FF;
+  --header-text-color: #000028;
+  --header-text-back-color: #FF0070;
+  --menu-button-text-color: var(--accent-color);
+  --menu-hover-color: rgba(255, 0, 0, 0.4);
+  --menu-active-color: #FF0070;
+  --text-font-family: 'IBM Plex Mono', serif;
+  --content-text-color: #F1B2CE;
+  --content-title-color: #FF0070;
+  --content-link-color: #F1B2CE;
+  --content-link-shadow-color: #FF0070;
+  --header-text-decore-display: block;  
 }
