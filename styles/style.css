@@ -87,11 +87,11 @@
   font-family: var(--text-font-family);
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.5em;
+  line-height: 18px;
   letter-spacing: 0%;
   text-align: center;
   color: var(--menu-button-text-color);
-  padding: 1.5px 13px;
+  padding: 2px 13px;
   text-transform: lowercase;
   background-color: transparent;
   border: 1px solid transparent;
@@ -443,12 +443,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    /* grid-auto-columns: auto; */
     grid-auto-flow: column;
   }
 
   .content__section-what .content__title-section {
-    grid-column: 1 / -1;
+    grid-column: 1 / 2;
     grid-row: 1;
     align-self: self-start;
     justify-self: start;
