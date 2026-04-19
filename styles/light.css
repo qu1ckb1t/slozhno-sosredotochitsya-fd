@@ -20,7 +20,7 @@
   --menu-button-text-color: #353430;
   --menu-hover-color: rgba(62, 61, 55, 0.4);
   --menu-active-color: #353430;
-  --text-font-family: 'IBM Plex Mono', serif;
+  --menu-focus-color: #353430;
   --content-text-color: #353430;
   --content-title-color: #353430;
   --content-link-color: #353430;
@@ -41,7 +41,7 @@
   --menu-button-text-color: #353430;
   --menu-hover-color: rgba(62, 61, 55, 0.4);
   --menu-active-color: #353430;
-  --text-font-family: 'IBM Plex Mono', serif;
+  --menu-focus-color: #353430;
   --content-text-color: #353430;
   --content-title-color: #353430;
   --content-link-color: #353430;

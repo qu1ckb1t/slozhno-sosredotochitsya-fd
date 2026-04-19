@@ -20,7 +20,7 @@
   --menu-button-text-color: var(--accent-color);
   --menu-hover-color: rgba(255, 0, 0, 0.4);
   --menu-active-color: #FF0070;
-  --text-font-family: 'IBM Plex Mono', serif;
+  --menu-focus-color: #FF0070;
   --content-text-color: #F1B2CE;
   --content-title-color: #FF0070;
   --content-link-color: #F1B2CE;

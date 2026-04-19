@@ -17,8 +17,10 @@
   --header-text-back-color: #FF0070;
   --header-padding: 10px;
   --menu-button-text-color: var(--accent-color);
+  --menu-items-gap: 12px;
   --menu-hover-color: rgba(255, 0, 0, 0.4);
   --menu-active-color: #FF0070;
+  --menu-focus-color: #FF0070;
   --text-font-family: 'IBM Plex Mono', serif;
   --content-gap: 50px;
   --content-padding: 40px 10px;
@@ -28,6 +30,7 @@
   --content-card-gap: 10px;
   --content-link-color: #F1B2CE;
   --content-link-shadow-color: #FF0070;
+  --content-galery-gap: 10px;
   --footer-padding: 10px;
   --header-text-decore-display: block;
 }
